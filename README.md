@@ -1,8 +1,9 @@
 # Real-Time Data Streaming Pipeline
 
-[Watch on Youtube](yt-link)
+This is the repo to: [Smart Grid Realtime Data Engineering Project using Kafka, Flink, PostgreSQL
+](https://www.youtube.com/watch?v=Suot7_-FVPY&t=2s)
 
-[![](./readme-assets/thumbnail.jpg)](yt-link)
+[![](./readme-assets/Thumbnail.jpg)](https://www.youtube.com/watch?v=Suot7_-FVPY&t=2s)
 
 ## 01 - Kafka Producer
 
@@ -81,5 +82,6 @@ Data Visualisation Time!
 
 [Apache Superset Quickstart](https://superset.apache.org/docs/quickstart) <br>
 [Apache Superset Database Drivers](https://superset.apache.org/docs/configuration/databases/) - remember Postgres driver is built into Superset's default image so we don't have to do anything <br>
+
 
 Note - make sure your dataset reads the "timestamp" column as a TIMESTAMP type and it recognises it as TEMPORAL - otherwise, Superset will not be able to make hourly/daily aggregations on your data. You can see verify this by going Superset > Datasets > edit dataset > columns tab > make sure "timestamp" is ticked for the "is temporal" parameter.
