@@ -1,4 +1,4 @@
-# Real-Time Data Engineering
+# Realtime Data Engineering
 This is the repo to: [Smart Grid Realtime Data Engineering Project using Kafka, Flink, PostgreSQL
 ](https://www.youtube.com/watch?v=Suot7_-FVPY&t=2s)
 
@@ -84,5 +84,6 @@ Data Visualisation Time!
 
 
 Note - make sure your dataset reads the "timestamp" column as a TIMESTAMP type and it recognises it as TEMPORAL - otherwise, Superset will not be able to make hourly/daily aggregations on your data. You can see verify this by going Superset > Datasets > edit dataset > columns tab > make sure "timestamp" is ticked for the "is temporal" parameter.
+
 
 
